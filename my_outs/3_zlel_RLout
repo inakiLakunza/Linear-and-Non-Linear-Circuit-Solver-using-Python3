@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\ialak\Documents\june_irurzun.inaki_lakunza\zlel_main.py", line 119, in <module>
+    cir, cir_el, cir_nd, cir_val, cir_ctr, sim = zl4.cir_parser(filename)
+  File "C:\Users\ialak\Documents\june_irurzun.inaki_lakunza\zlel\zlel_p4.py", line 66, in cir_parser
+    cir_el = np.array(cir[:, 0], dtype=str)
+IndexError: too many indices for array: array is 1-dimensional, but 2 were indexed
